@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Kanit:wght@500&family=PT+Sans&family=Roboto&family=Ubuntu&display=swap');
+
+.bg-red {
+    background-color: var(--clr1);
+}
+
+.bg-blue {
+    background-color: var(--clr2);
+}
+
+.bg-green {
+    background-color: var(--clr3);
+}
+
+.bg-black {
+    background-color: var(--clr4);
+}
+
+.nav {
+    height: 100px;
+    background: var(--clr4);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-image: url("https://librarykv2faridabad.files.wordpress.com/2020/07/cropped-water-lily-2122505_1920.jpg");
+    background-position-y: center;
+    background-position-x: 45%;
+    background-repeat: no-repeat;
+}
+
+.nav-left {
+    /* background: pink; */
+    height: 100px;
+    align-items: center;
+    flex-direction: row;
+    font-family: var(--font1);
+    /* text-decoration: none; */
+}
+
+.nav-left span {
+    /* text-decoration: none; */
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+.nav-left span a{
+    text-decoration: none;
+}
+
+.nav-left span a h3{
+    font-size: 36px;
+    color: white;
+}
+
+.nav-left span a:visited{
+    color: white;
+    /* text-decoration: none; */
+}
+
+.nav-left div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.nav-right {
+    /* background: pink; */
+    height: 100px;
+    align-items: center;
+    font-family: var(--font1);
+
+}
+
+.nav-right button {
+    margin: 0 30px;
+    padding: 10px;
+    border-radius: 85px;
+    cursor: pointer;
+    background-color: black;
+    font-family: var(--font1);
+    font-size: 16px;
+    border: 2px solid white;
+    box-shadow: 2.5px 2.5px whitesmoke;
+
+}
+
+.nav-right button:hover{
+    box-shadow: -2.5px -1.5px #FFFFFF;
+}
+
+.nav-right button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav div img {
+        border-radius: 11px;
+        height: 52px;
+        margin: 0 28px;
+}
+
+.nav-left ul {
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0 55px;
+    font-size: 20px;
+
+}
+
+.nav-left ul li {
+    margin: 0 30px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border: 1.5px solid whitesmoke;
+    border-radius: 12px;
+    box-shadow: 2.5px 2.5px whitesmoke;
+}
+
+.nav-left ul li a:hover{
+    /* border: 1.5px solid whitesmoke; */
+   /* color: black;
+    background-color: white;
+    transition: ease-in-out 0.3s;
+    /* border-radius: 8px; */
+
+    /* NEW STYLE */
+
+    box-shadow: -2.5px -2.5px whitesmoke;
+}
+
+
+
+
+.content {
+    height: 585px;
+}
+
+.footer{
+    height: 75px;
+}
