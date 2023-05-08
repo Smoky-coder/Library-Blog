@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lib-contact.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,7 @@
             <a href="#"><h3>Library</h3></a>
           </span>
           <ul class="d-flex">
-            <li><a href="/lib-home.html" id="home">Home</a></li>
+            <li><a href="/index.html" id="home">Home</a></li>
             <li><a href="/lib-about.html" id="about">About</a></li>
             <li><a href="/lib-contact.html" id="contact">Contact</a></li>
             <li><a href="" id="More">More</a></li>
@@ -27,27 +28,28 @@
         </div>
         <div class="nav-right d-flex">
           <button class="blog-ref">
-            <a href="https://librarykv2faridabad.wordpress.com/">Visit Blog</a>
+            <a href="https://librarykv2faridabad.wordpress.com/" target="_blank ">Visit Blog</a>
           </button>
         </div>
       </nav>
     <h1>Feedback Form</h1>
-    <div>
-    <form action="#" method="post">
-        <input type="text" name="" id="">
-        <label for=""></label>
+    <!-- <div> -->
+    <form action="#" method="post" id="form1">
+      <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname">
 
-        <input type="text" name="" id="">
-        <label for=""></label>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname">
 
-        <input type="text" name="" id="">
-        <label for=""></label>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
 
-        <input type="text" name="" id="">
-        <label for=""></label>
+        <label for="desc">Suggestions</label>
+        <textarea name="desc" id="desc" cols="50" rows="10" form="form1"></textarea>
 
-        <input type="button" name="" id="" value="click">
-        <label for=""></label>
+<div class="buttons">
+        <input type="button" name="reset" id="reset" value="Reset">
+        <input type="submit" value="Submit" id="submit">
     </div>
     </form>
 
