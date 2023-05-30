@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Kanit:wght@500&family=PT+Sans&family=Roboto&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .bg-red {
     background-color: var(--clr1);
@@ -17,6 +21,8 @@
 }
 
 .nav {
+    position: fixed;
+    width: 100vw;
     height: 100px;
     background: var(--clr4);
     justify-content: space-between;
@@ -143,3 +149,11 @@ nav div img {
 /*
 .footer{
     /* height: 75px; */
+
+
+
+/* FORM */
+
+form{
+    font-family: var(--font1);
+}
